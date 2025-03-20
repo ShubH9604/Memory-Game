@@ -1,12 +1,38 @@
-# React + Vite
+# 🧠 Number Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Number Memory Game** built with **React & Vite**.  
+Test your memory by flipping two cards at a time to find matching numbers!  
 
-Currently, two official plugins are available:
+## 🚀 Features  
+✅ Randomized number pairs each game  
+✅ Flip cards to reveal numbers  
+✅ Matched pairs turn **green**, incorrect pairs reset  
+✅ Track your **moves**  
+✅ Restart button to **shuffle & reset** the game  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack  
+- **React.js** (with Vite)  
+- **CSS** (for styling)  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure  
+```plaintext
+memory-game/  
+│── package.json          # Project dependencies & scripts  
+│── vite.config.js        # Vite configuration  
+│── README.md             # Project documentation  
+│── public/               # Static assets (if needed)  
+│── src/                  # Source code  
+│   │── components/       # Reusable UI components  
+│   │   │── Card.jsx      # Single card component  
+│   │   │── Card.css      # Styles for Card  
+│   │   │── GameBoard.jsx # Main game logic  
+│   │   │── GameBoard.css # Styles for Game Board  
+│   │── App.jsx           # Main App component  
+│   │── App.css           # Global styles  
+│   │── main.jsx          # React root file  
+│   │── index.css         # Base styles  
+└── node_modules/         # Installed dependencies  
